@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Reyes Sanchez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiences.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <script defer src="main/app.js"></script>
+</head>
+
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="50" width="50" src="img/Miguel_P.jpg" alt="programador">
+                <div>
+                    Miguel Reyes
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menu">
+                <img src="img/hamburger.svg" alt="abrir menú">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menu">
+                    <img src="img/close.svg" alt="cerrar menú">
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#proyec">Proyecto</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, soy <br>Miguel Reyes</h1>
+                <p class="profile-details">
+                    Soy un apacionado por la arquitectura y desarrollo de software.
+                    con más de 1 años de experencia en varios lenguajes de programación y tecnologías
+                </p>
+                <button class="profile-btn">
+                    Descargar CV
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="img/M.R.png" alt="programador">
+                <div class="profile-img-line"></div>
+            </span>
+        </section>
+    </div>
+
+    <section class="experiences" id="experience">
+        <img src="img/wave.svg" alt="División" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empy"></div>
+                <div class="line"></div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2022-2023</div>
+                    <div class="experience-company"></div>
+                    <div class="experience-position">Sftware enngineer</div>
+                    <div class="experience-discription">
+                        Desarrollo de la interfaz y el back-end de un SaaS usado por
+                        cientos de clientes para desplegar anuncios a escala. Usamos
+                        React.js, TypeScript, Cypress, Node.js, Serverless y la
+                        infraestructura de AWS (entre otras tecnologías).
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="experience-date">2022-2023</div>
+                    <div class="experience-company"></div>
+                    <div class="experience-position">Sftware enngineer</div>
+                    <div class="experience-discription">
+                        Desarrollo de la interfaz y el back-end de un SaaS usado por
+                        cientos de clientes para desplegar anuncios a escala. Usamos
+                        React.js, TypeScript, Cypress, Node.js, Serverless y la
+                        infraestructura de AWS (entre otras tecnologías).
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empy"></div>
+                <div class="empy"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2022-2023</div>
+                    <div class="experience-company"></div>
+                    <div class="experience-position">Sftware enngineer</div>
+                    <div class="experience-discription">
+                        Desarrollo de la interfaz y el back-end de un SaaS usado por
+                        cientos de clientes para desplegar anuncios a escala. Usamos
+                        React.js, TypeScript, Cypress, Node.js, Serverless y la
+                        infraestructura de AWS (entre otras tecnologías).
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/wave.svg" alt="División" class="wave wave_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">Node.js</li>
+                <li class="skills-skill">React.js</li>
+                <li class="skills-skill">Typescript</li>
+                <li class="skills-skill">JavaScript</li>
+                <li class="skills-skill">Python</li>
+            </ul>
+
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+        <section Class="contact vertical-padding" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Dirección</p>
+                    <p class="contact-text">Ferreñafe</p>
+                </div> 
+                <div class="contact-details-group">
+                    <p class="contact-label">Email</p>
+                    <p class="contact-text">miguelreyes@gmail.com</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text">deje su mensaje</p>
+                </div>  
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://twitter.com " class="social-link">
+                            <img src="img/twitter.svg" alt="twitter profile">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.youtube.com " class="social-link">
+                            <img src="img/youtube.svg" alt="youtube profile">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com " class="social-link">
+                            <img src="img/github.svg" alt="github profile">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://linkedin.com " class="social-link">
+                            <img src="img/linkedin.svg" alt="linkedin profile">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+</body>
+
+</html>
