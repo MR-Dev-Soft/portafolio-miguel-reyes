@@ -19,8 +19,11 @@ A continuación se muestran algunas vistas representativas del portafolio:
   <img width="1908" height="905" alt="image" src="https://github.com/user-attachments/assets/5210f1ad-a80b-46f6-b0f9-42542c158357" width="100%" alt="vista principal" />
 </p>
 
-- **Sección CV:** visualización de la hoja de vida.
-- **Sección de habilidades y experiencia:** descripción de conocimientos técnicos.
+- **Sección de experiencias y habilidades:** descripción de conocimientos técnicos.
+<p align="center">
+  <img width="1908" height="905" alt="image" src="https://github.com/user-attachments/assets/17fca5aa-923e-4e0a-b62f-e53fc158eb07" width="100%" alt="vista principal" />
+  <img width="1908" height="905" alt="image" src="https://github.com/user-attachments/assets/2cd8ac33-d00a-4f1a-907a-37befdd7f664" width="100%" alt="vista principal" />
+</p>
 - **Formulario de contacto:** canal de comunicación con visitantes.
 
 
